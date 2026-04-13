@@ -1,13 +1,6 @@
-# Correção do Bug: Detector de Violações Antes do Início da Prova
+# TODO: Merge blackboxai/fix-violation-detector-prestart into main
 
-- [x] **Plano aprovado pelo usuário**
-- [x] **Criar TODO.md com passos** (this file)
-- [x] **Implementar mudanças no script.js** (adicionar flag isExamStarted, mover listeners para attachSecurityListeners(), condicionais em logViolation e handlers)
-- [ ] **Testar: Verificar que violações não são logadas na tela de login**
-- [ ] **Testar: Confirmar que violações são logadas após iniciar prova (ex: trocar aba)**
-- [ ] **Verificar PDF export só inclui violações pós-início**
-- [x] **Completar tarefa**
-
-*Status: PR aberto, novo bug: carregar questions.json*
-
-
+- [ ] Step 1: Switch to main and pull latest (`git checkout main && git pull origin main`)
+- [ ] Step 2: Merge feature branch (`git merge blackboxai/fix-violation-detector-prestart`)
+- [ ] Step 3: Push to origin main (`git push origin main`)
+- [ ] Step 4: Verify merge (`git log --oneline -5`) and test app
