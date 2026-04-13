@@ -42,5 +42,104 @@
       "Oferece segurança adicional em transações, ao permitir a encriptação de partes sensíveis dos dados transmitidos."
     ],
     "correct": 3
+  },
+  {
+    "question": "Uma equipe de desenvolvedores está iniciando um novo projeto para criar uma aplicação web robusta e escalável. Durante a fase de configuração do ambiente back- end, foram analisadas várias opções de servidores e ferramentas. Após avaliar aspectos como compatibilidade com a linguagem de programação, escalabilidade e suporte da comunidade, a equipe decidiu utilizar o Node.js como plataforma para o servidor e o Visual Studio Code (VS Code) como ambiente de desenvolvimento. No entanto, ainda há dúvidas sobre a escolha das extensões e ferramentas adicionais para garantir maior produtividade e evitar erros comuns durante o processo de desenvolvimento. Qual ferramenta ou prática seria mais indicada para complementar o ambiente descrito e garantir um desenvolvimento eficiente?",
+    "options": [
+      "Utilizar as ferramentas integradas ao VS Code, como terminal e gerenciador de extensões, para configurar o ambiente.",
+      "Implementar um servidor Apache em paralelo ao Node.js para maior flexibilidade.",
+      "Adotar um gerenciador de dependências, como Maven, para compatibilidade com múltiplas linguagens.",
+      "Instalar extensões específicas no VS Code para depuração, controle de versão e integração contínua.",
+      "Configurar o VS Code com temas personalizados e atalhos para maior usabilidade no desenvolvimento."
+    ],
+    "correct": 3
+  },
+    {
+    "question": "No desenvolvimento web, diferentes tecnologias trabalham em conjunto para criar páginas interativas e funcionais. Elas possuem funções específicas, que vão desde a estruturação do conteúdo até a adição de interatividade e melhorias na apresentação visual. No contexto do desenvolvimento front-end, as tecnologias HTML, CSS e JavaScript são responsáveis, respectivamente, por:",
+    "options": [
+      "estilização, estruturação e gerenciamento de banco de dados.",
+      "estruturação, segurança e estilização.",
+      "interatividade, estilização e estruturação.",
+      "gerenciamento de dados, composição visual e estilização.",
+      "estruturação, estilização e interatividade."
+    ],
+    "correct": 4
+  },
+    {
+    "question": "No desenvolvimento de um aplicativo voltado para a gestão de finanças pessoais, a equipe de design optou por criar protótipos antes de iniciar a programação final. Durante as reuniões com usuários, percebeu-se que a interface inicial dificultava a navegação entre as categorias de despesas. Após ajustes feitos com base no feedback recebido, o protótipo foi melhorado, resultando em um aumento na aceitação dos testes finais. A prototipagem foi essencial nesse processo por:",
+    "options": [
+      "identificar problemas de navegação antes do desenvolvimento final.",
+      "melhorar a estética do design com base no feedback de usuários.",
+      "garantir que as funcionalidades desejadas estivessem todas implementadas.",
+      "coletar informações dos usuários para redesenhar as funcionalidades do sistema.",
+      "verificar o desempenho do aplicativo em diferentes dispositivos e plataformas."
+    ],
+    "correct": 0
+  },
+    {
+    "question": "Uma empresa de tecnologia foi contratada para desenvolver um sistema de gestão acadêmica para uma universidade. Durante a análise de requisitos, foi criado o seguinte diagrama entidade-relacionamento (ER): Entidades: aluno, professor e curso. Atributos: • Aluno: matrícula (PK), nome, data de nascimento, Cod_Curso (FK). • Professor: Cod_Professor (PK), nome. • Curso: Cod_Curso (PK), nome, Cod_Professor (FK). Relacionamentos: • Aluno-Curso: muitos para muitos (implementado por tabela intermediária). • Curso-Professor: muitos para um. Com base nas informações apresentadas no diagrama ER, conclui-se que:",
+    "options": [
+      "um curso pode ser ministrado por mais de um professor.",
+      "um aluno pode estar matriculado em apenas um curso.",
+      "um curso pode ter apenas um professor responsável.",
+      "um aluno pode estar associado a apenas um professor.",
+      "um professor pode ministrar apenas um curso por vez."
+    ],
+    "correct": 2
+  },
+    {
+    "question": "No SQL, os comandos são divididos em categorias, como Data Definition Language (DDL), Data Manipulation Language (DML), Data Query Language (DQL), Data Control Language (DCL) e Transaction Control Language (TCL). Cada categoria possui funções específicas que são utilizadas para atender diferentes necessidades na gestão de bancos de dados. Por exemplo, criar e modificar tabelas, manipular dados armazenados, recuperar informações ou controlar permissões de acesso. Qual comando SQL abaixo pertence à categoria Data Control Language (DCL)?",
+    "options": [
+      "CREATE.",
+      "DELETE.",
+      "SELECT.",
+      "GRANT.",
+      "INSERT."
+    ],
+    "correct": 3
+  },
+    {
+    "question": "Uma empresa possui um banco de dados que armazena milhões de registros. Para atender às demandas por consultas mais rápidas, a equipe de TI está analisando o uso de índices compostos. Além disso, considera-se a necessidade de manter o equilíbrio entre desempenho em consultas e a eficiência em operações de escrita, como atualizações e inserções. Qual impacto a criação de índices compostos pode gerar em um banco de dados?",
+    "options": [
+      "A criação de índices compostos melhora a velocidade das consultas SELECT que utilizam as colunas indexadas.",
+      "Os índices compostos reduzem o consumo de espaço em disco ao armazenar referências às colunas indexadas.",
+      "Os índices compostos melhoram a performance de todas as operações SQL, incluindo INSERT e UPDATE.",
+      "A criação de índices compostos reduz a complexidade da estrutura do banco de dados, facilitando sua manutenção.",
+      "Os índices compostos são eficazes para consultas que utilizam colunas indexadas em condições de ordenação ou intervalo."
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Uma equipe de desenvolvimento de software, composta por dois programadores trabalhando remotamente, enfrentava dificuldades para sincronizar as alterações no código-fonte de um novo aplicativo. A troca de arquivos por e-mail gerava versões conflitantes e perda de trabalho. Para solucionar o problema, a equipe implementou um sistema de controle de versão, utilizando um repositório em um servidor na nuvem para centralizar o projeto e uma cópia de trabalho na máquina de cada desenvolvedor. Considerando a solução adotada pela equipe para resolver o problema de sincronização, a principal função do repositório no servidor na nuvem é",
+    "options": [
+      "servir como um backup de segurança para a versão estável do projeto, garantindo a recuperação em caso de falhas locais.",
+      "substituir a necessidade de um ambiente de desenvolvimento local, permitindo que o código seja editado diretamente no servidor.",
+      "garantir que cada desenvolvedor possua uma cópia completa e independente do projeto, permitindo o trabalho autônomo.",
+      "automatizar a integração do código, validando as contribuições de cada desenvolvedor antes de mesclá-las ao projeto principal.",
+      "centralizar o histórico de alterações e permitir a colaboração síncrona entre os membros da equipe."
+    ],
+    "correct": 4
+  },
+  {
+    "question": "Uma startup de tecnologia, com uma equipe enxuta de cinco desenvolvedores, está focada no lançamento de um novo aplicativo. O orçamento para ferramentas de desenvolvimento é restrito, mas a automação de testes e entregas (CI/CD) é uma prioridade estratégica para garantir a agilidade do projeto. A equipe busca uma solução de versionamento de código que ofereça funcionalidades robustas de CI/CD em seu plano gratuito e que facilite a colaboração, permitindo que a empresa cresça sem a necessidade de migrar de plataforma a curto prazo. Considerando o cenário e as prioridades da startup descritas, a escolha mais adequada da ferramenta de versionamento e sua respectiva justificativa é:",
+    "options": [
+      "GitLab, pois oferece um sistema de CI/CD integrado e com mais recursos no plano gratuito, atendendo à necessidade de automação com baixo custo inicial.",
+      "GitHub, por ser a plataforma com a maior comunidade e o ecossistema mais vasto de integrações, o que garante maior familiaridade para a equipe.",
+      "GitHub, pois sua integração nativa com o VS Code e o GitHub Codespaces elimina a necessidade de um servidor próprio para CI/CD, reduzindo os custos.",
+      "GitLab, porque seu principal diferencial é a interface de usuário mais limpa e intuitiva, o que acelera a adaptação de novos desenvolvedores na equipe.",
+      "Qualquer uma das plataformas, pois ambas oferecem funcionalidades de CI/CD e controle de versão, sendo a decisão baseada apenas na preferência da equipe."
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Maria, uma desenvolvedora júnior, foi encarregada de iniciar um novo projeto de software em uma plataforma de hospedagem de código. Sua primeira tarefa é criar o repositório central para a equipe. Ao configurar o repositório, ela considera a importância de adicionar um arquivo inicial que é apresentado na página principal do projeto. Esse arquivo é considerado uma peça fundamental para a boa organização e para facilitar a colaboração entre os membros da equipe. Considerando a importância do arquivo inicial mencionado, sua principal função no repositório é:",
+    "options": [
+      "armazenar o histórico completo de todas as alterações de código realizadas.",
+      "apresentar a documentação principal e as instruções de uso do projeto.",
+      "registrar automaticamente os erros e bugs encontrados durante a execução.",
+      "definir as configurações de visibilidade, determinando se o projeto é público ou privado.",
+      "compilar o código-fonte para gerar a versão executável da aplicação."
+    ],
+    "correct": 1
   }
 ]
