@@ -1,15 +1,6 @@
-# TODO: COMPLETE ✅
+# TODO: Merge blackboxai/fix-violation-detector-prestart into main
 
-Funcionalidade de salvar prova + unlock professor implementada!
-
-**Teste:**
-- `start index.html`
-1. Login, responda algumas, F5 → prompt senha.
-2. "senha123" → resume com respostas/tempo.
-3. Errada → reset login.
-
-Arquivos: index.html (nova seção), script.js (localStorage logic), este TODO.
-
-Ignore TS errors VSCode (JS funciona).
-
-Task done!
+- [ ] Step 1: Switch to main and pull latest (`git checkout main && git pull origin main`)
+- [ ] Step 2: Merge feature branch (`git merge blackboxai/fix-violation-detector-prestart`)
+- [ ] Step 3: Push to origin main (`git push origin main`)
+- [ ] Step 4: Verify merge (`git log --oneline -5`) and test app
