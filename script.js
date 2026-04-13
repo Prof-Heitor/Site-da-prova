@@ -177,7 +177,7 @@ document.getElementById('download-pdf').addEventListener('click', () => {
     let y = 20;
 
     doc.setFontSize(16);
-    doc.text('RELATÓRIO DO SIMULADO - 3º Ano Técnico', 20, y);
+    doc.text('RELATÓRIO DO SIMULADO - 1º BIMESTRE', 20, y);
     y += 15;
     
     doc.setFontSize(12);
@@ -186,14 +186,17 @@ document.getElementById('download-pdf').addEventListener('click', () => {
     
     doc.text('Respostas:', 20, y); y += 8;
     testAnswers.forEach((item) => {
-        let line1 = `Questão ${item.qNum}: sua resposta: ${item.suaText}`;
+        let line1 = `Q${item.qNum}: Sua: ${item.suaText.substring(0, 80)}...`;
+        if (line1.length > 80) line1 = line1.substring(0, 80) + '...';
         doc.text(line1, 20, y);
         y += 6;
         if (item.isWrong) {
-            let line2 = `resposta correta: ${item.correctText}`;
+            let line2 = `Correta: ${item.correctText.substring(0, 80)}...`;
+            if (line2.length > 80) line2 = line2.substring(0, 80) + '...';
             doc.text(line2, 20, y);
             y += 6;
         }
+        if (y > 270) { doc.addPage(); y = 20; }
     });
     y += 5;
     
