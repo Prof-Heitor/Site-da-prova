@@ -10,7 +10,7 @@ let testScore = 0;
 let numQuestions = 0;
 
 function loadQuestions() {
-  fetch('questions.json')
+  return fetch('questions.json')
     .then(response => response.json())
     .then(data => {
       questionsData = data;
@@ -94,10 +94,11 @@ document.getElementById('login-form').addEventListener('submit', (e) => {
     }).finally(() => {
         document.getElementById('fullscreen-prompt').style.display = 'none';
         document.getElementById('test-form').style.display = 'block';
-        loadQuestions();
-        generateQuestions(questionsData);
-        isExamStarted = true;
-        attachSecurityListeners();
+        loadQuestions().then(() => {
+            generateQuestions(questionsData);
+            isExamStarted = true;
+            attachSecurityListeners();
+        });
     });
 
 });
